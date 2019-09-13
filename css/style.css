@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Utility Classes */
+.container {
+  padding: 20px;
+}
+
+/* Navbar */
+#navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+#navbar ul li {
+  padding: 10px;
+}
+
+/* Welcome */
+#welcome {
+ text-align: center;
+}
+
+.myphoto {
+  height: 200px;
+  weight: 200px;
+  border-radius: 50%;
+}
